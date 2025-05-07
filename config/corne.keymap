@@ -122,6 +122,7 @@
         compatible = "zmk,keymap";
 
         default {
+            display-name = "default";
             bindings = <
 &kp Q  &kp W  &kp E  &kp R      &kp T    &kp Y       &kp U          &kp I      &kp O        &kp P       &kp A      &kp S
 &kp D  &kp F  &kp G  &kp H      &kp J    &kp K       &kp L          &kp SEMI   &kp Z        &kp X       &kp C      &kp V
@@ -130,6 +131,7 @@
         };
 
         specials {
+            display-name = "specials";
             bindings = <
 &kp EXCL     &kp AT_SIGN     &kp POUND         &kp DOLLAR  &kp MINUS  &kp PLUS     &kp EQUAL          &kp ASTERISK      &kp UNDER  &kp DOUBLE_QUOTES  &kp TILDE      &kp LBKT
 &kp LPAR     &kp LEFT_BRACE  &kp PIPE          &kp AMPS    &kp RBRC   &kp RPAR     &kp RIGHT_BRACKET  &kp SINGLE_QUOTE  &trans     &trans             &kp BACKSLASH  &kp LESS_THAN
@@ -138,6 +140,7 @@
         };
 
         numpad {
+            display-name = "numpad";
             bindings = <
 &trans       &trans      &trans  &trans  &trans  &trans    &kp N7  &kp N8  &kp N9  &trans  &mo 3   &lm 3 LALT
 &lm 3 LCTRL  &lm 3 LGUI  &trans  &trans  &kp N4  &kp N5    &kp N6  &trans  &trans  &trans  &trans  &trans
@@ -146,6 +149,7 @@
         };
 
         fn {
+            display-name = "fn";
             bindings = <
 &kp F1  &kp F2  &kp F3  &kp F4    &kp F5    &kp F6    &kp F7     &kp F8  &kp F9  &kp F10  &trans  &mo 6
 &mo 4   &mo 5   &trans  &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans  &trans  &trans   &trans  &trans
@@ -154,6 +158,7 @@
         };
 
         media {
+            display-name = "media";
             bindings = <
 &trans  &trans  &trans  &trans  &trans        &trans          &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &kp C_VOL_DN  &kp C_VOL_UP    &kp C_MUTE  &trans            &trans      &trans  &trans  &trans
@@ -162,6 +167,7 @@
         };
 
         mouse {
+            display-name = "mouse";
             bindings = <
 &trans  &trans    &trans     &trans          &trans          &msc SCRL_LEFT    &msc SCRL_DOWN   &msc SCRL_UP  &msc SCRL_RIGHT  &trans  &trans  &trans
 &trans  &trans    &trans     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP      &mmv MOVE_RIGHT  &trans        &trans           &trans  &trans  &trans
@@ -170,6 +176,7 @@
         };
 
         control {
+            display-name = "control";
             bindings = <
 &trans  &trans         &trans         &trans         &kp C_SLEEP    &kp C_PWR        &bt BT_PRV    &bt BT_NXT    &bt BT_CLR  &bt BT_CLR_ALL  &trans  &trans
 &trans  &trans         &trans         &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2     &bt BT_SEL 3  &bt BT_SEL 4  &trans      &trans          &trans  &trans
