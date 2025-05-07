@@ -72,59 +72,31 @@
         };
 
         undo {
-            bindings = <&undo>;
+            bindings = <&kp LG(Z)>;
             key-positions = <20 24>;
             timeout-ms = <25>;
         };
 
         cut {
-            bindings = <&cut>;
+            bindings = <&kp LG(X)>;
             key-positions = <24 21>;
             timeout-ms = <25>;
         };
 
         copy {
-            bindings = <&copy>;
+            bindings = <&kp LG(C)>;
             key-positions = <24 22>;
             timeout-ms = <20>;
         };
 
         paste {
-            bindings = <&paste>;
+            bindings = <&kp LG(V)>;
             key-positions = <23 24>;
             timeout-ms = <15>;
         };
     };
 
     macros {
-        undo: undo {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LGUI &kp Z>;
-            label = "UNDO";
-        };
-
-        cut: cut {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LGUI &kp X>;
-            label = "CUT";
-        };
-
-        copy: copy {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LGUI &kp C>;
-            label = "COPY";
-        };
-
-        paste: paste {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LGUI &kp V>;
-            label = "PASTE";
-        };
-
         lm: lm {
             compatible = "zmk,behavior-macro-two-param";
             #binding-cells = <2>;
