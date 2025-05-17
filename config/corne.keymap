@@ -135,9 +135,9 @@
         focal {
             display-name = "focal";
             bindings = <
-&kp V  &kp L     &kp H  &kp G    &kp K  &kp Q        &kp F       &kp O      &kp U  &kp J       &kp S      &kp R
-&kp N  &kp T     &kp B  &kp Y    &kp C  &kp A        &kp E       &kp I      &kp Z  &kp X       &kp M      &kp D
-&kp P  &kp FSLH  &kp W  &kp DOT  &kp S  &kp COMMA    &kp ESCAPE  &kp LSHFT  &mo 2  &lt 3 BSPC  &kp SPACE  &kp ENTER
+&kp V  &kp L     &kp H  &kp G    &kp K     &kp Q        &kp F       &kp O      &kp U  &kp J       &kp S      &kp R
+&kp N  &kp T     &kp B  &kp Y    &kp C     &kp A        &kp E       &kp I      &kp Z  &kp X       &kp M      &kp D
+&kp P  &kp FSLH  &kp W  &kp DOT  &kp SEMI  &kp COMMA    &kp ESCAPE  &kp LSHFT  &mo 2  &lt 3 BSPC  &kp SPACE  &kp ENTER
             >;
         };
 
