@@ -26,33 +26,33 @@
         tab {
             bindings = <&kp TAB>;
             key-positions = <16 17 18>;
-            timeout-ms = <30>;
+            timeout-ms = <75>;
         };
 
         bspc {
             bindings = <&kp BSPC>;
             key-positions = <26 28 27>;
-            timeout-ms = <30>;
+            timeout-ms = <75>;
         };
 
         lalt {
             bindings = <&kp LALT>;
             key-positions = <1 11>;
-            timeout-ms = <30>;
+            timeout-ms = <50>;
             slow-release;
         };
 
         lctl {
             bindings = <&kp LCTRL>;
             key-positions = <2 12>;
-            timeout-ms = <30>;
+            timeout-ms = <50>;
             slow-release;
         };
 
         lgui {
             bindings = <&kp LGUI>;
             key-positions = <3 13>;
-            timeout-ms = <30>;
+            timeout-ms = <50>;
             slow-release;
         };
 
@@ -60,13 +60,13 @@
             bindings = <&kp LALT>;
             key-positions = <8 18>;
             slow-release;
-            timeout-ms = <30>;
+            timeout-ms = <50>;
         };
 
         rctl {
             bindings = <&kp LCTRL>;
             key-positions = <7 17>;
-            timeout-ms = <30>;
+            timeout-ms = <50>;
             slow-release;
         };
 
@@ -74,7 +74,7 @@
             bindings = <&kp LGUI>;
             key-positions = <6 16>;
             slow-release;
-            timeout-ms = <30>;
+            timeout-ms = <50>;
         };
 
         undo {
