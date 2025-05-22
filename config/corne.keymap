@@ -100,6 +100,16 @@
             key-positions = <23 24>;
             timeout-ms = <15>;
         };
+
+        lmods {
+            bindings = <&mo 7>;
+            key-positions = <32 31>;
+        };
+
+        rmods {
+            bindings = <&mo 8>;
+            key-positions = <33 34>;
+        };
     };
 
     macros {
@@ -165,7 +175,7 @@
         fn {
             display-name = "fn";
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4    &kp F5    &kp F6    &kp F7     &kp F8  &kp F9  &kp F10  &trans  &mo 7
+&kp F1  &kp F2  &kp F3  &kp F4    &kp F5    &kp F6    &kp F7     &kp F8  &kp F9  &kp F10  &trans  &mo 9
 &mo 5   &mo 6   &trans  &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans  &trans  &trans   &trans  &trans
 &trans  &trans  &trans  &trans    &trans    &trans    &trans     &trans  &trans  &trans   &trans  &trans
             >;
@@ -187,6 +197,26 @@
 &trans  &trans    &trans     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP      &mmv MOVE_RIGHT  &trans        &trans           &trans  &trans  &trans
 &trans  &mkp MB4  &mkp LCLK  &mkp RCLK       &mkp MB5        &trans            &trans           &trans        &trans           &trans  &trans  &trans
             >;
+        };
+
+        lmods {
+            bindings = <
+&trans     &trans    &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &kp LALT
+&kp LCTRL  &kp LGUI  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &trans    &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+
+            label = "lmods";
+        };
+
+        rmods {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans    &trans       &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &kp RGUI  &kp RCTRL    &kp RALT  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans       &trans    &trans  &trans  &trans  &trans  &trans
+            >;
+
+            label = "rmods";
         };
 
         control {
